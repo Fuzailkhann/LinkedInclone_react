@@ -1,0 +1,75 @@
+.widgets{
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+
+
+
+}
+
+.widgets_headers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.widgets_headers > h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.widgets_article {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.widgets_article:hover{
+    background-color: whitesmoke;
+}
+.article_left{
+    margin-right: 10px;
+    color: #0177b7;
+}
+
+.article_left > .MuiSvgIcon-root{
+    font-size: 15px;
+}
+.article_right > p{
+    font-size: 12px;
+    color: gray;
+}
+
+@media (max-width: 600px) {
+
+.widgets{
+        position: sticky;
+        top: 80px;
+        flex: 0.2;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid lightgray;
+        height: fit-content;
+        padding-bottom: 10px;
+    
+    
+    
+    }
+
+    .widgets_headers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    
+    }
+    /* CSS rules for screens with a width of 600px or less */
+  }

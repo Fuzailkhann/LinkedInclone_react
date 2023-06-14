@@ -1,0 +1,74 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.signup > form {
+    display: flex ;
+    flex-direction: column;
+
+}
+.signup > form > input{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+
+}
+
+.signup > form > button {
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #0177b0;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+.signup > form > p{
+    width: 350px;
+}
+
+@media (max-width: 600px) {
+    .signup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        justify-content: center;
+        width: 400px;
+    
+    }
+
+    .signup > form > input{
+        width: 250px;
+        height: 40px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        padding-left: 10px;
+    
+    }
+    .signup > form > button {
+        width: 260px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #0177b0;
+        color: #fff;
+        font-size: large;
+        cursor: pointer;
+    
+    }
+    .signup > form > p{
+        width: 250px;
+    }
+    /* CSS rules for screens with a width of 600px or less */
+  }

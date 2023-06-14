@@ -1,0 +1,79 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgrey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+
+
+}
+
+.header_left{
+    display: flex;
+    object-fit: contain;
+    align-items: center;
+}
+.header_search{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 12px;
+    border-radius: 2px;
+    width: 250px;
+    color: gray;
+    background-color: #eef8f3;
+}
+.header_search > input{
+    outline: none;
+    border: none;
+    background: none;
+    
+    height: 42px;
+
+}
+
+.header_left > img{
+    object-fit: contain;
+    height: 60px;
+    margin-right: 5px;
+
+}
+
+.header_right{
+    display: flex;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+
+    .header_search{
+        display: none;
+
+    }
+    .header_right{
+        display: flex;
+        object-fit: contain;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+        border-bottom: 0.1px solid lightgrey;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 600px;
+        background-color: white;
+        top: 0;
+        position: sticky;
+        z-index: 2;
+    
+    
+    }
+    /* CSS rules for screens with a width of 600px or less */
+  }

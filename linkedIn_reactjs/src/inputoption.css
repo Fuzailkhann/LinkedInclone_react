@@ -1,0 +1,39 @@
+.inputOption{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.inputOption:hover{
+    background-color:whitesmoke;
+    border-radius: 10px;
+}
+
+.inputOption > h4{
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+
+    .inputOption{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: gray;
+        margin-top: 15px;
+       
+        
+        cursor: pointer;
+        width: 100px;
+        
+    }
+
+    .inputOption > h4{
+        margin-left: 0;
+        font-size: 8px;
+    }
+    /* CSS rules for screens with a width of 600px or less */
+  }

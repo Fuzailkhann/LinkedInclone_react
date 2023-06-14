@@ -1,0 +1,71 @@
+.feed{
+    flex:0.6;
+    margin: 0 20px;
+}
+.feed_inputContainer{
+   
+    background-color: white;
+   
+  
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feed_input{
+    border: 1px solid lightgray;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    padding-left: 15px;
+    background-color: white;
+
+}
+
+.feed_input > form {
+    display: flex;
+    width: 100%;
+}
+
+.feed_input > form> input {
+    border: none;
+    outline: none;
+
+    outline-width: 0;
+    margin-left: 10px;
+    font-weight: 600;
+    flex: 1;
+}
+
+.feed_input> form > button{
+    display: none;
+}
+
+.feed_inputOption {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media (max-width: 600px) {
+    .feed{
+        
+      margin: 2px;
+      width: 200px;
+    }
+    .feed_input > form {
+        display: flex;
+        width: 20px;
+    }
+    .feed_inputOption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        
+    }
+
+    /* CSS rules for screens with a width of 600px or less */
+  }

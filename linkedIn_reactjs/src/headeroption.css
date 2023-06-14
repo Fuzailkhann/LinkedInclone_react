@@ -1,0 +1,50 @@
+.headeroption{
+ 
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    color: gray;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.headeroption_title{
+    font-size: 12px;
+    font-weight: 400;
+}
+.headeroption_pic{
+    object-fit: contain;
+    width: 25px  !important;
+    height: 25px !important;
+}
+.headeroption_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px !important ;
+    width: 25px  !important;
+}
+
+.headeroption_icon:hover{
+    color: black;
+}
+
+.headeroption_title{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .headeroption_icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15px !important ;
+        width: 15px  !important;
+    }
+    .headeroption_title{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    
+    /* CSS rules for screens with a width of 600px or less */
+  }
